@@ -1,21 +1,4 @@
 
-elpacificmb
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-alx-low_level_programming/0x07-pointers_arrays_strings/3-strspn.c
-@elpacificmb
-elpacificmb Tandatory tasks
- 1 contributor
-29 lines (25 sloc)  441 Bytes
 #include "main.h"
 
 /**
