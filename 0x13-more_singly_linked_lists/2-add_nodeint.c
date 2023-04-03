@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add node - adds a new node at the beginning of a listint_t list
+ * add_nodeint - adds a new node at the beginning of a listint_t list
  * @h: Pointer to a list.
  * Return: Integer.
  **/
