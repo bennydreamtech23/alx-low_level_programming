@@ -2,7 +2,7 @@
 
 
 /**
- * listint_t - returns the number of elements in a linked.
+ * listint_len - returns the number of elements in a linked.
  * @h: Pointer to a list.
  * Return: Integer.
  **/
