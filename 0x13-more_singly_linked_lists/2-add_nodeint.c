@@ -2,19 +2,21 @@
 #include <stdlib.h>
 
 /**
- * add node - adds a new node at the beginning of a listint_t list
- * @h: Pointer to a list.
- * Return: Integer.
+ * add_nodeint - adds a new node at the beginning of a listint_t list
+ * @head: Pointer to a list.
+ * @n: Integer to add to the list.
+ * Return: Pointer to the newly created node.
  **/
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *countfull;
+	listint_t *new_node;
 
-countfull = malloc(sizeof(listint_t))
-		if (countfull == NULL)
+new_node =  malloc(sizeof(listint_t))
+		if (new_node == NULL)
 			return (NULL)
-				countfull->n = n
-				countfull->next = *head
-				return (head);
+				
+				new_node->n = n;
+				new_node->next = *head;
+				return (*head);
 }
