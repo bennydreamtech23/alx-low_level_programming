@@ -19,4 +19,3 @@ new_node =  malloc(sizeof(listint_t))
 				new_node->next = *head;
 				return (*head);
 }
-
