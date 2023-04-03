@@ -3,9 +3,9 @@
 
 /**
  * add_nodeint_end - Add a new node to the end of a list.
- * @head - pointer to a list
- * @n- Integer to add to the list.
- * Return- pointer to the newly created node
+ * @head:  pointer to a list
+ * @n:  Integer to add to the list.
+ * Return: pointer to the newly created node
   **/
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -26,9 +26,10 @@ if (head == NULL)
 	return (new_node);
 }
 
-new_node2 = *head
+new_node2 = *head;
 while (new_node2->next)
 	new_node2 = new_node2->next;
 	new_node2->new_node = new_node;
-	return (new_node)
+
+	return (new_node);
 }
