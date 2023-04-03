@@ -9,15 +9,15 @@
 
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *h;
+	const listint_t *countfull;
 	unsigned int count = 0;
 
-	while (h)
+	countfull = h;
+	while (countfull)
 	{
-		printf("%d\n", h->n);
+		printf("%d\n", countfull->n);
 		count++;
-		h = h->next;
+		countfull = countfull->next;
 	}
 	return (count);
 }
-
