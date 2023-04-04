@@ -24,9 +24,9 @@ listint_t *find_listint_loop(listint_t *head)
 			while (pace != steady)
 			{
 				pace = pace->next;
-				fast=fast->next;
+				fast = fast->next;
 			}
-			return (steady):
+			return (steady);
 		}
 	}
 	return (NULL);
