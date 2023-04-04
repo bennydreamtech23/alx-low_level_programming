@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - delete the head node of a listint_t
- * @head: Address the list
- * Return: Integer if successfully
+ * pop_listint - delete the first element of a singly linked list.
+ * @head: Pointer to the list.
+ * Return: Integer if successfully.
  **/
 
 int pop_listint(listint_t **head)
