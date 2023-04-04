@@ -11,24 +11,24 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 
-	listint_t *countfull, *countfull2;
+	listint_t *ch, *ch2;
 
-	countfull = malloc(sizeof(listint_t));
-	if (countfull == NULL)
+	ch = malloc(sizeof(listint_t));
+	if (ch == NULL)
 		return (NULL);
 
-	countfull->n = n;
-	countfull->next = NULL;
+	ch->n = n;
+	ch->next = NULL;
 
 	if (head == NULL)
 	{
-	*head = countfull;
-	return (countfull);
+	*head = ch;
+	return (ch);
 	}
 
-	countfull2 = head;
-	while (countfull->next)
-		countfull2 = countfull2->next;
-	countfull2->next = countfull;
-	return (countfull);
+	ch2 = head;
+	while (ch->next)
+		ch2 = ch2->next;
+	ch->next = ch;
+	return (ch);
 }
