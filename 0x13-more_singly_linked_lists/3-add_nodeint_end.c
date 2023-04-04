@@ -10,7 +10,8 @@
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *countfull *countfull2;
+
+	listint_t *countfull, *countfull2;
 
 	countfull = malloc(sizeof(listint_t));
 	if (countfull == NULL)
@@ -26,8 +27,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 
 	countfull2 = head;
-	while(countfull->next)
+	while (countfull->next)
 		countfull2 = countfull2->next;
 	countfull2->next = countfull;
-	return(countfull);
+	return (countfull);
 }
