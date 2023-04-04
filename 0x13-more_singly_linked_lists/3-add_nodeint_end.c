@@ -22,8 +22,10 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	if (*head == NULL)
 	{
+
 	*head = ch;
 	return (ch);
+
 	}
 
 	ch2 = *head;
